@@ -1,0 +1,400 @@
+@charset "BIG5";
+
+.nav {
+
+	width : 100%;
+	height: 250px;
+	background-color: #caf0f8;
+}
+
+.bg {
+	width : 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.imgd{
+	margin-top: -90px;
+	margin-left : 50px;
+	width:160px;
+	height : 160px;
+	border-radius : 50%;
+	object-fit: cover;
+	border: 5px white solid;
+}
+
+.pic {
+	
+	 z-index: 2;
+}
+
+.rwr {
+	margin-left : 15px;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+	width: 25%;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.p{
+	margin-left: 60px;
+	margin-top:20px;
+}
+.trt {
+	margin-left:22px;
+}
+
+.u{
+	margin-left : 60px;
+}
+
+.iw {
+	border: 1px blacl solid;
+	width: 200px;
+	
+}
+.all {
+	width:400px;
+	border-radius: 10px;
+	background-color:#F5F5F5;
+}
+.might {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.connector {
+	margin-left:48px;
+  
+  top: 50%; 
+  left: 0; 
+  width: 2px; 
+  height: 88%; 
+  background-color: #e5e5e5; 
+}
+.iw i {
+	height: 100px;
+	width: 200px;
+}
+
+.link {
+	width: 100px;
+}
+
+.leftCol {
+	position:sticky;
+	top:0;
+	width:300px;
+	height:100%;
+	 z-index: 100;
+}
+.rightCol {
+	position:sticky;
+	top:0;
+	width: 350px;
+	height:100%;
+	
+}
+.thread {
+	border:1px #edede9 solid;
+}
+.thread a {
+	display:inline-block;
+	width:100%
+}
+
+.thread a:hover{
+	
+	background: #edede9;
+}
+
+.se {
+	width:40px;
+	height:40px;
+	border-radius: 50%;
+	margin-left:29px;
+}
+.ffo{
+	margin-left:40px;
+	margin-right:40px;
+}
+.connector {
+	margin-left:48px;
+  
+  top: 50%; 
+  left: 0; 
+  width: 2px; 
+  height: 100%; 
+  background-color: #e5e5e5; 
+}
+
+.connect {
+	margin-left:22px;
+  
+  top: 50%; 
+  left: 0; 
+  width: 2px; 
+  height: 100%; 
+  background-color: #e5e5e5; 
+}
+.userPhoto{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	margin-left:40px;
+}
+.container {
+	height: 100%;
+}
+.c0ontain 
+{
+	height:100%;
+}
+.img{
+	
+	width: 70px;
+}
+
+.leftCol {
+	position:sticky;
+	width:300px;
+}
+.leftCol a:hover img {
+	opacity: .5;
+	background:white;
+}
+.b {
+	
+	margin-top : 30px;
+	padding:10px;
+	border-radius : 50px;
+	display: inline-block;
+	transition: all 0.3s ease;
+
+}
+
+.b:hover {
+	
+	background-color : #e9ecef;
+}
+
+.user {
+	border-radius: 50%;
+	object-fit: cover;
+	height:70px;
+	width: 70px;
+}
+
+.o {
+	border-radius: 5px;
+	height:90px;
+	width: 400px;
+}
+.o:hover {
+	background: #edede9;
+}
+
+.rr {
+	opacity:0.5;
+	position: sticky;
+	top:0;
+	width:100%;
+	height:80px;
+	
+}
+
+.setting {
+	color:black;
+	text-decoration:none;
+	font-size: 20px;
+}
+
+.con {
+	border-radius: 5px;
+	width : 400px;
+	height:300px;
+}
+.log {
+	width:60px;
+	height:60px;
+	border-radius: 50%;
+	margin-left:20px;
+}
+.post{
+	width:100%;
+	border:1px #edede9 solid;
+}
+.qw {
+	margin-left:20px;
+}
+.d {
+	margin-left:20px;
+}
+.ew {
+	margin-left:20px;
+	width:80%;
+	border-radius:10px;
+}
+
+.date {
+	margin-left: 20px;
+}
+.bi-patch-check-fill {
+	margin-bottom: 3px;
+	color:#4895ef;
+	
+	border:none;
+}
+
+.bi-geo-alt-fill {
+	
+	margin-bottom :10px;
+}
+.ew {
+	margin-left:20px;
+	width:80%;
+	border-radius:10px;
+}
+.ffo{
+	margin-left:5px;
+	margin-right:40px;
+}
+.button-89 {
+	text-decoration:none;
+	margin-top:20px;
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+.follow{
+	text-decoration:none;
+	margin-bottom:5px;
+}
+
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}

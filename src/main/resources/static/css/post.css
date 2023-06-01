@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.log {
+	width:60px;
+	height:60px;
+	border-radius: 50%;
+	margin-left:20px;
+}
+.commentContent{
+	padding:30px;
+	width:100%;
+	border:none;
+}
+.commentPhoto{
+	border-radius:10px;
+	width: 80%;
+}
+.commentContent:focus{
+    outline: none;
+}
+
+
+.ewd{
+	
+	margin-left: 30px;
+}
+.likeCount {
+	margin-left:5px;
+	font-weight:bold;
+}
+
+.ffo{
+	margin-left:40px;
+	margin-right:40px;
+}
+.userPhoto{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	margin-left:40px;
+}
+
+
+.button-87 {
+  width:90px;
+  height:33px;
+  margin-left:50px;
+  padding:5px .5em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 500;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+.button-7 {
+	margin-left:50px;
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.connector {
+  position: absolute;
+  top: 50%;
+  left: -10px; /* Adjust the horizontal position of the connector */
+  height: 2px;
+  width: 10px; /* Adjust the length of the connector */
+  background-color: black; /* Adjust the color of the connector */
+  transform: translateY(-50%);
+}
+.ww{
+	width:94%;
+	border-radius:15px;
+}
+.name{
+	margin-left:50px;
+	font-family: 'Playfair Display', serif;
+	font-size:20px;
+}
+.content {
+	margin-left:30px;
+	font-family: 'Playfair Display', serif;
+	font-size:18px;
+}
+.date{
+	margin-left:53px;
+}
+.username{
+	margin-left:8px;
+}
+.img{
+	
+	width: 70px;
+}
+
+.link {
+	width: 100px;
+}
+
+.leftCol {
+	width: 300px;
+}
+.rightCol {
+	
+	width: 350px;
+}
+.contain {
+	
+	
+}
+
+.leftCol {
+	position:sticky;
+	width:300px;
+}
+.leftCol a:hover img {
+	opacity: .5;
+	background:white;
+}
+.b {
+	margin-top : 30px;
+	padding:10px;
+	border-radius : 50px;
+	width: 200px;
+
+}
+
+.b:hover {
+	border: 0.5px #6c757d solid;
+	background-color : #edede9;
+}
+
+
+
+.o {
+	border-radius: 5px;
+	height:90px;
+	
+}
+.o:hover {
+	background: #edede9;
+}
+
+.rr {
+	padding:20px;
+	backdrop-filter: blur(10px);
+	background-color:#e9ecef;
+	opacity:0.7;
+	position: sticky;
+	top:0;
+	width:100%;
+	height:80px;
+	
+}
+
+.setting {
+	color:black;
+	text-decoration:none;
+	font-size: 20px;
+}
+
+.con {
+	overflow:hidden;
+	border-radius: 40px;
+	width : 400px;
+	height:300px;
+}
+
+
+
+
+
+
+.bi-patch-check-fill {
+	margin-bottom: 3px;
+	color:#4895ef;
+	
+	border:none;
+}
+
+.ret {
+	width:60px;
+	height:60px;
+	background-color:white;
+}
+
+.dd {
+	background-color:white;
+	border:none;
+}
+
+
+
+.commentInput{
+	width:100%;
+}
+
+.form {
+	width: 100%;
+}
+.button-70 {
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin: 5px;
+	margin-left:25px;
+  padding:5px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-29 {
+	margin-top:4px;
+	margin-left: 200px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 32px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 15px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.liked {
+  /* Add your styles for the liked button here */
+  /* For example, you can change the background color or apply different styles */
+  background-color: blue;
+  color: white;
+  /* Add any other styles as needed */
+}
+.menu {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+  
+    .menu-button {
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+  
+    .menu-button:hover {
+      background-color: #f0f0f0;
+      border-radius: 4px;
+    }
+  
+    .edit-box {
+      display: none;
+      position: absolute;
+      bottom: -100%;
+      left: 0;
+      background-color: #f0f0f0;
+ 
+      border-radius: 4px;
+    }
+  	.edit-button:hover{
+  	background:#8ecae6;
+  	
+  	}
+    .edit-button {
+    height:30px;
+    width:80px;
+      background: none;
+      border: none;
+      border-radius:5px;
+      font-size: 14px;
+      cursor: pointer;
+    }
